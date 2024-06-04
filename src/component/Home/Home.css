@@ -1,0 +1,38 @@
+.banner {
+    background-image: url("https://wallpaperaccess.com/full/271708.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 80vh; /* This will set the height to 75% of the viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    padding-left: 1rem;
+}
+
+
+.text-content {
+    z-index: 10;
+    color: white; /* Assurez-vous que le texte soit visible */
+    padding-top: 1rem;
+  }
+  
+  .cover {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+    position: absolute;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+.public-image{
+    width:60%;
+    height: 60%;
+    margin-left:8.5rem;
+    margin-bottom: -1.4rem;
+}

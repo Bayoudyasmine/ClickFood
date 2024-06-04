@@ -1,0 +1,67 @@
+.navbar {
+    background: no-repeat center center;
+    background-size: cover;
+    height: 11vh; /* Ajustez selon vos besoins */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    gap: 2rem;
+    background-color: #ffcc00;
+  }
+
+  
+  .navbar .logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  .navbar .menu {
+    display: flex;
+    gap: 2rem;
+    flex: 1;
+    justify-content: center;
+  }
+  
+  .navbar .menu a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    font-family: Serif  ;
+    font-style: italic;
+  }
+
+  
+  .navbar .menu a:hover {
+    color: #ffffff;
+  }
+
+  .navbar .actions {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .navbar .order-btn {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    text-decoration: none;
+  }
+  
+  .navbar .order-btn:hover {
+    background-color: #ffcc00;
+  }
+.logo-image {
+  width: 250px; /* Spécifiez la largeur de l'image */
+  /* Marge à droite pour séparer l'image du texte */
+  display: inline-block;
+  margin-top: -16px; /* Utilisez une valeur négative pour déplacer l'image vers le haut */
+  margin-left: -33px; /* Déplace l'image vers la gauche */
+}
+
+
